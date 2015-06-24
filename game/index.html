@@ -1,0 +1,37 @@
+<div class="colorpickGame" ng-controller="gameController">
+
+<div class="gamediv"style="background-color:rgb({{g_red}},{{g_green}},{{g_blue}})">
+</div>
+<div class="gamediv"style="background-color:rgb({{red}},{{green}},{{blue}})">
+</div>
+<div class='gameInstruction'style="display:inline-block">
+	<h3> Color Pick Game! </h3>
+	<h4><strong> Rules: </strong></h4>
+	<p>1. Click on 'Generate' to generate a random color background for the first box.</p>
+	<p>2. Adjust the scroll bar and try to make the two box have same color!</p>
+        <h4><strong> Scores: </strong></h4>
+        <ol>
+        <li> Totally Match!!! Unbelievable!!! </li>
+        <li> Error less than 10: Top Color expert!</li>
+        <li> Error less than 20: Color Master!</li>
+        <li> Error less than 30: So close!</li>
+        <li> Else: Have another try! </li>
+        </ol>
+</div>
+<br>
+<div class="colorbar">
+<div class="red">
+<input type="range" min="0" max="255" ng-model="red">{{red}}</input><br>
+</div>
+<div class="green">
+<input type="range" min="0"max="255" ng-model="green">{{green}}<br>
+</div>
+<div class="blue">
+<input type="range" min="0" max="255" ng-model="blue">{{blue}}
+</div>
+</div>
+<br>
+<input type="button" class="button btn btn-info colorgame"ng-click="generateValue()" value="Generate!">
+<input type="button" class="button btn btn-primary colorgame"ng-click="submitValue()" value="Check!">
+<input type="button" class="btn btn-success showAns"ng-click="showAnswer()" value="Show Answer!">
+</div>

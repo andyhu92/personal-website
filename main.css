@@ -1,0 +1,261 @@
+body{
+  background: -webkit-linear-gradient(white,lightblue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white,lightblue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white,lightblue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white,lightblue); /* Standard syntax */
+  background-image:url(img/gradient.jpg);
+  background-size:100% 100%;
+}
+.banner{
+background-image:url(img/universe.jpg);
+border:2px solid black;
+border-radius:20px;
+height:240px;
+z-index:-1;
+}
+blockquote{
+border-left:0;
+}
+.nav-tabs {
+   border-bottom:0;
+}
+.navbar{ height: 60px; }
+
+.nav {
+position:relative;
+width:400px;
+margin:10px;
+margin-bottom:30px;
+}
+.nav li{
+display:inline;
+}
+
+.background {
+margin-left:5px;
+margin-top:25px;
+border:10px solid;
+border-image: url(img/blueborder.png) 25 stretch;
+}
+.background:hover{
+cursor:pointer;
+}
+.picture_comment{
+color:white;
+text-align:center;
+font-style:italic;
+text-shadow:1px 1px #000;
+}
+.intro{
+font-family:Lucida Console;
+text-transform: uppercase;
+color:#FFF;
+text-shadow: 2px 2px #444;
+transition:all 0.2s ease-in-out;
+}
+.intro h1:hover{
+text-shadow: 2px 2px #00F;
+}
+.intro p{
+font-size:15px;
+text-transform:none;
+position:relative;
+top:10%;
+}
+img{
+display:block;
+margin:10px auto 10px auto;
+}
+.homepage{
+z-index:999;
+display:inline;
+border:1px solid gray;
+transition:all 0.2s ease-in-out;
+width:240px;
+border-radius:15px;
+}
+.homepage:hover{
+border:1px double darkblue;
+}
+.email{
+text-decoration:underline;
+}
+.googlemap,.weather{
+display:none;
+margin:5px auto 5px 7px;
+}
+.weather{
+position:relative;
+left:-55px;
+}
+.button{
+cursor:pointer;
+margin:5px auto 0 5px;
+}
+.digital{
+border-image: url(img/blueborder.png) 10 round;
+border-image-width: 10px;
+}
+.TK{
+
+}
+.toolkit{
+position:relative;
+top:0;
+left:0;
+}
+.tool{
+list-style-type:none;
+display:none;
+text-align:center;
+width:100px;
+position:relative;
+top:0px;
+left:-25px;
+margin-bottom:0.5px;
+cursor:pointer;       
+    z-index: 99999;    
+    background-color: #444; 
+    color:white;  
+    background-image: linear-gradient(#444, #111);    
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.tool:hover{
+background-color:#EEE;
+background-image: linear-gradient(#E0E0D6, #9D9D96); 
+color:black;
+}
+.photosdiv{
+margin-top:26px;
+width:660px;
+}
+.photos{
+background:url("img/gallery1.jpg");
+border-style: solid;
+border-width: 34px 27px 27px;
+-moz-border-image: url(img/border.png) 34 27 27 repeat;
+-webkit-border-image: url(img/border.png) 34 27 27 repeat;
+-o-border-image: url(img/border.png) 34 27 27 repeat;
+border-image: url(img/border.png) 34 27 27 fill repeat;
+}
+.photos li{
+display:inline-block;
+text-align:center;
+list-style-type:none;
+}
+.photos img{
+border: 10px solid;
+border-image: url(img/border2.png) 25 stretch;
+margin:0 10px 0 0;
+width:160px;
+height: 120px;
+}
+.comment{
+font: italic bold 12px/30px Georgia, serif;
+}
+.comment1{
+font: bold 12px/30px Georgia, serif;
+}
+.introphoto{
+display:inline;
+text-align:none;
+}
+#resume{
+border: 3px inset black;
+
+}
+.gamediv{
+border:1px solid black;
+display:inline-block;
+width:160px;
+height:260px;
+}
+.colorpickGame{
+
+}
+.colorgame{
+float:left;
+width:160px;
+margin-left:0px;
+margin-right:5px;
+}
+.gameInstruction{
+float:right;
+width:280px;
+background-image:url('img/gamebackground.jpg');
+background-size:100% 100%;
+color:white;
+padding:5px;
+}
+input[type=range]{
+width:320px;
+}
+.colorbar{
+width:340px;
+}
+.showAns{
+width:280px;
+margin-top:5px;
+float:right;
+}
+.review{
+height:420px;
+overflow-y:auto;
+border:3px solid darkblue;
+color:white;
+background:url("img/tech-background.jpg");
+background-size:100% 100%;
+}
+.liveComment{
+border: 2px inset black;
+border-radius: 15px;
+background-image:url("img/livebackground.jpg");
+background-size:100% 100%;
+width:630px;
+font-size:0.8em;
+white-space:wrap;
+overflow-y:auto;
+}
+.liveblock{
+white-space:wrap;
+display:block;
+overflow:auto;
+}
+.aboutSection{
+cursor:pointer;
+}
+.aboutSectionActive{
+font-weight:bold;
+font-size:1.5em;
+text-shadow:1px 1px #EEE;
+cursor:pointer
+}
+
+.footer{
+margin-top:30px;
+background-color:#444444;
+color:white;
+font-size:0.9em;
+}
+.coming li{
+text-shadow: 1px 1px #000;
+}
+.footer a{
+color:lightblue;
+}
+.footer a:hover{
+color:white;
+}
+audio{
+height:5%;
+}
+.red{
+color:red;
+}
+.green{
+color:green;
+}
+.blue{
+color:blue;
+}

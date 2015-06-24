@@ -1,0 +1,9 @@
+<ul class="photos" ng-controller="galleryController as gallery">
+ <li class="introphoto">
+    <span class="comment1"> I'm a fan of Janpanese manga and <b><i>One Piece</i></b> is my favorite one! In my spare time I enjoy painting and that's how these digital paintings came from. All of these paintings are created with my painting tablet and some of them have been edited with Photoshop CS5. You can check my traditional paintings in the next section! Thanks for visiting my gallery and have a great day! <a>     Traditional painting</a></span>
+ </li>
+ <li ng-repeat ="image in gallery">
+    <img ng-src="{{image.src}}">
+    <span class="comment">{{image.comment}} <span>
+</li> 
+</ul>
